@@ -1,6 +1,6 @@
 branch-defaults:
   default:
-    environment: Udagramserver-env
+    environment: Contactapi-env
     group_suffix: null
 deploy:
   artifact: www/Archive.zip
@@ -9,7 +9,7 @@ environment-defaults:
     branch: null
     repository: null
 global:
-  application_name: udagram-server
+  application_name: contact-api
   branch: null
   default_ec2_keyname: null
   default_platform: Node.js 14
